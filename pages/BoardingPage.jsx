@@ -1,7 +1,7 @@
 function BoardingPage() {
   const [flightType, flightNum, src, dest, date, time] = [
-    'cathay',
-    'UO888',
+    'hkexpress',
+    '888',
     'HKG',
     'CXC',
     '19 Nov 2023',

@@ -24,7 +24,7 @@ function HomePage() {
           <FlightInfoCard
             props={{
               flightType: 'hkexpress',
-              flightNum: 'UO888',
+              flightNum: '888',
               src: 'HKG',
               dest: 'CXC',
               date: '19 Nov 2023',
@@ -34,7 +34,7 @@ function HomePage() {
           <FlightInfoCard
             props={{
               flightType: 'cathay',
-              flightNum: 'UO876',
+              flightNum: '876',
               src: 'HKG',
               dest: 'LAX',
               date: '19 Dec 2024',
@@ -44,7 +44,7 @@ function HomePage() {
           <FlightInfoCard
             props={{
               flightType: 'cathay',
-              flightNum: 'UO986',
+              flightNum: '986',
               src: 'LAX',
               dest: 'HKG',
               date: '25 Sep 2024',

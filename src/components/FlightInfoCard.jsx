@@ -14,7 +14,9 @@ function FlightInfoCard(props) {
       <div className="flex items-center">
         <img src={flightType + '.jpg'} className="ml-2 h-24 shadow" />
         <div className="-space-y-1 pl-3">
-          <div className="text-xl font-bold">{flightNum}</div>
+          <div className="text-xl font-bold">
+            {(flightType == 'cathay' ? 'CX' : 'UO') + flightNum}
+          </div>
           <div>
             {src} -{'>'} {dest}
           </div>
