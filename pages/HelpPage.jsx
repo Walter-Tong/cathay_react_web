@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
-import LLMChatBoxes from '../components/LLMChatBoxes'
 import Show360Image from '../components/Show360Image'
+import InputId from '../components/InputId'
+import { useState, useEffect } from 'react'
 
 function HelpPage() {
   const [imgToShow, setImgToShow] = useState(null)
@@ -19,7 +19,7 @@ function HelpPage() {
 
   return (
     <div className="flex">
-      <LLMChatBoxes />
+      <InputId />
       {imgToShow}
     </div>
   )
