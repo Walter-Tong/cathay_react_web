@@ -1,12 +1,12 @@
 import { NavLink } from 'react-router-dom'
 
-const svgClassName = 'w-10 h-10'
+const svgClassName = 'w-8 h-8 text-[#005D63]'
 
 function BottomNav() {
   return (
-    <div className="fixed bottom-0 w-screen">
-      <div className="flex space-x-8 justify-center pb-7 pt-3 border-t-2">
-        <NavLink to="/">
+    <div className="fixed bottom-0 w-screen bg-white">
+      <div className="flex justify-center space-x-10 border-t-2 border-[#005D63] border-opacity-25 pb-8 pt-3">
+        <NavLink to="/" className={isActive => (isActive ? 'active' : '')}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -21,7 +21,7 @@ function BottomNav() {
             />
           </svg>
         </NavLink>
-        <NavLink to="/shop">
+        <NavLink to="/boarding">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -32,7 +32,12 @@ function BottomNav() {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 013.75 9.375v-4.5zM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 01-1.125-1.125v-4.5zM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0113.5 9.375v-4.5z"
+            />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6.75 6.75h.75v.75h-.75v-.75zM6.75 16.5h.75v.75h-.75v-.75zM16.5 6.75h.75v.75h-.75v-.75zM13.5 13.5h.75v.75h-.75v-.75zM13.5 19.5h.75v.75h-.75v-.75zM19.5 13.5h.75v.75h-.75v-.75zM19.5 19.5h.75v.75h-.75v-.75zM16.5 16.5h.75v.75h-.75v-.75z"
             />
           </svg>
         </NavLink>
