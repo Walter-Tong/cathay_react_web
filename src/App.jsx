@@ -1,18 +1,36 @@
-import { useState } from 'react'
-import { Routes, Route, NavLink } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { Routes, Route, NavLink, useLocation } from 'react-router-dom'
 import './App.css'
 import TopBar from '../components/topBar'
 import HomePage from '../pages/HomePage'
 import LLMChatBoxChat from '../components/LLMChatBoxChat'
 import LLMChatBoxTranlate from '../components/LLMChatBoxTranlate'
 import LLMChatBoxes from '../components/LLMChatBoxes'
+import Show360Image from '../components/Show360Image'
+import Image360List from '../components/Image360List'
 
 function App() {
   const [count, setCount] = useState(0)
 
+  const [imgToShow, setImgToShow] = useState(null)
+
+  useEffect(() => {
+    const location = window.location;
+
+    console.log(location)
+
+    const toGo = location.search
+
+    if (toGo) {
+      setImgToShow(<Show360Image path={toGo.slice(1)} />)
+    }
+
+  }, [])
+
   return (
     <div className='flex justify-center items-center'>
-      <LLMChatBoxes />
+      <Image360List />
+      {imgToShow}
     </div>
   )
 }
