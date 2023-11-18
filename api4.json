@@ -1,0 +1,1414 @@
+{
+  "CX259": {
+    "data": {
+      "id": "CX025920231119HKG",
+      "scheduledDepartureDate": "20231119",
+      "flightDesignator": {
+        "carrierCode": "CX",
+        "flightNumber": 259
+      },
+      "flightPoints": [
+        {
+          "iataCode": "HKG",
+          "departure": {
+            "terminal": {
+              "code": "1"
+            },
+            "timings": [
+              {
+                "qualifier": "STD",
+                "value": "2023-11-19T23:55:00"
+              },
+              {
+                "qualifier": "BOT",
+                "value": "2023-11-19T23:15:00"
+              }
+            ]
+          },
+          "arrival": {
+            "terminal": {
+              "code": "3"
+            },
+            "timings": [
+              {
+                "qualifier": "STA",
+                "value": "2023-11-20T05:00:00"
+              }
+            ],
+            "groundTimeDuration": "PT00H00M"
+          }
+        },
+        {
+          "iataCode": "LHR",
+          "departure": {
+            "terminal": {
+              "code": "3"
+            }
+          }
+        }
+      ]
+    },
+    "included": {
+      "legs": [
+        {
+          "boardPointIataCode": "HKG",
+          "offPointIataCode": "LHR",
+          "flyingTimeDuration": "PT13H05M",
+          "aircraftEquipment": {
+            "aircraftType": "77W",
+            "aircraftConfiguration": {
+              "code": "77A-A01"
+            }
+          },
+          "legDCSStatuses": {
+            "acceptanceStatus": "OPEN",
+            "generalStatus": "OPEN",
+            "loadControlStatus": "OPEN",
+            "boardingStatus": "NOT_OPEN",
+            "baggageStatus": "IGNORED",
+            "disruptionStatus": "NOT_DISRUPTED"
+          },
+          "legCounters": {
+            "totalCounters": {
+              "capacity": 294,
+              "availability": 267,
+              "infantQuota": 32,
+              "notAccepted": 27,
+              "booked": 27,
+              "accepted": 0
+            },
+            "cabinCounters": [
+              {
+                "cabinName": "F",
+                "counters": {
+                  "capacity": 6,
+                  "availability": 6,
+                  "notAccepted": 0,
+                  "booked": 0,
+                  "accepted": 0,
+                  "standby": 0
+                },
+                "isFreeSeating": false,
+                "configuration": 6,
+                "transit": {
+                  "total": {
+                    "total": {
+                      "booked": 0,
+                      "accepted": 0,
+                      "standby": 0
+                    },
+                    "infants": {
+                      "accepted": 0
+                    }
+                  }
+                },
+                "partnerDcsCounters": [
+                  {
+                    "marketingFlight": {
+                      "carrierCode": "CX",
+                      "flightNumber": 259
+                    },
+                    "dcsCounters": {
+                      "capacity": 6,
+                      "availability": 6,
+                      "expectedAvailability": 6,
+                      "occupiedSeats": 0,
+                      "expectedToBoard": 0,
+                      "partAccepted": 0,
+                      "partStandby": 0,
+                      "booked": 0
+                    },
+                    "joining": {
+                      "total": {
+                        "total": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "transit": {
+                      "total": {
+                        "total": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "staffCounters": {
+                      "rebate": {
+                        "total": {
+                          "booked": 0,
+                          "waitlisted": 0
+                        }
+                      }
+                    },
+                    "capacity": {
+                      "operationalCapacity": 6,
+                      "seatingCapacity": 6
+                    }
+                  }
+                ],
+                "capacity": {
+                  "operationalCapacity": 6,
+                  "seatingCapacity": 6
+                }
+              },
+              {
+                "cabinName": "J",
+                "counters": {
+                  "capacity": 53,
+                  "availability": 49,
+                  "notAccepted": 4,
+                  "booked": 4,
+                  "accepted": 0,
+                  "standby": 0
+                },
+                "isFreeSeating": false,
+                "configuration": 53,
+                "transit": {
+                  "total": {
+                    "total": {
+                      "booked": 0,
+                      "accepted": 0,
+                      "standby": 0
+                    },
+                    "infants": {
+                      "accepted": 0
+                    }
+                  }
+                },
+                "partnerDcsCounters": [
+                  {
+                    "marketingFlight": {
+                      "carrierCode": "CX",
+                      "flightNumber": 259
+                    },
+                    "dcsCounters": {
+                      "capacity": 53,
+                      "availability": 49,
+                      "expectedAvailability": 53,
+                      "occupiedSeats": 4,
+                      "expectedToBoard": 0,
+                      "partAccepted": 0,
+                      "partStandby": 0,
+                      "booked": 4
+                    },
+                    "joining": {
+                      "total": {
+                        "total": {
+                          "booked": 4,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 4,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "transit": {
+                      "total": {
+                        "total": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "staffCounters": {
+                      "rebate": {
+                        "total": {
+                          "booked": 0,
+                          "waitlisted": 0
+                        }
+                      }
+                    },
+                    "capacity": {
+                      "operationalCapacity": 53,
+                      "seatingCapacity": 53
+                    }
+                  }
+                ],
+                "capacity": {
+                  "operationalCapacity": 53,
+                  "seatingCapacity": 53
+                }
+              },
+              {
+                "cabinName": "W",
+                "counters": {
+                  "capacity": 34,
+                  "availability": 25,
+                  "notAccepted": 9,
+                  "booked": 9,
+                  "accepted": 0,
+                  "standby": 0
+                },
+                "isFreeSeating": false,
+                "configuration": 34,
+                "transit": {
+                  "total": {
+                    "total": {
+                      "booked": 0,
+                      "accepted": 0,
+                      "standby": 0
+                    },
+                    "infants": {
+                      "accepted": 0
+                    }
+                  }
+                },
+                "partnerDcsCounters": [
+                  {
+                    "marketingFlight": {
+                      "carrierCode": "CX",
+                      "flightNumber": 259
+                    },
+                    "dcsCounters": {
+                      "capacity": 34,
+                      "availability": 25,
+                      "expectedAvailability": 34,
+                      "occupiedSeats": 9,
+                      "expectedToBoard": 0,
+                      "partAccepted": 0,
+                      "partStandby": 0,
+                      "booked": 9
+                    },
+                    "joining": {
+                      "total": {
+                        "total": {
+                          "booked": 9,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 9,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "transit": {
+                      "total": {
+                        "total": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "staffCounters": {
+                      "rebate": {
+                        "total": {
+                          "booked": 0,
+                          "waitlisted": 0
+                        }
+                      }
+                    },
+                    "capacity": {
+                      "operationalCapacity": 34,
+                      "seatingCapacity": 34
+                    }
+                  }
+                ],
+                "capacity": {
+                  "operationalCapacity": 34,
+                  "seatingCapacity": 34
+                }
+              },
+              {
+                "cabinName": "Y",
+                "counters": {
+                  "capacity": 201,
+                  "availability": 187,
+                  "notAccepted": 14,
+                  "booked": 14,
+                  "accepted": 0,
+                  "standby": 0
+                },
+                "isFreeSeating": false,
+                "configuration": 201,
+                "transit": {
+                  "total": {
+                    "total": {
+                      "booked": 0,
+                      "accepted": 0,
+                      "standby": 0
+                    },
+                    "infants": {
+                      "accepted": 0
+                    }
+                  }
+                },
+                "partnerDcsCounters": [
+                  {
+                    "marketingFlight": {
+                      "carrierCode": "CX",
+                      "flightNumber": 259
+                    },
+                    "dcsCounters": {
+                      "capacity": 201,
+                      "availability": 187,
+                      "expectedAvailability": 201,
+                      "occupiedSeats": 14,
+                      "expectedToBoard": 0,
+                      "partAccepted": 0,
+                      "partStandby": 0,
+                      "booked": 14
+                    },
+                    "joining": {
+                      "total": {
+                        "total": {
+                          "booked": 14,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 14,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "transit": {
+                      "total": {
+                        "total": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "staffCounters": {
+                      "rebate": {
+                        "total": {
+                          "booked": 0,
+                          "waitlisted": 0
+                        }
+                      }
+                    },
+                    "capacity": {
+                      "operationalCapacity": 201,
+                      "seatingCapacity": 201
+                    }
+                  }
+                ],
+                "capacity": {
+                  "operationalCapacity": 201,
+                  "seatingCapacity": 201
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "CX491": {
+    "data": {
+      "id": "CX049120231119TPE",
+      "scheduledDepartureDate": "20231119",
+      "flightDesignator": {
+        "carrierCode": "CX",
+        "flightNumber": 491
+      },
+      "flightPoints": [
+        {
+          "iataCode": "TPE",
+          "departure": {
+            "terminal": {
+              "code": "1"
+            },
+            "timings": [
+              {
+                "qualifier": "STD",
+                "value": "2023-11-19T19:40:00"
+              },
+              {
+                "qualifier": "BOT",
+                "value": "2023-11-19T19:10:00"
+              }
+            ]
+          },
+          "arrival": {
+            "terminal": {
+              "code": "1"
+            },
+            "timings": [
+              {
+                "qualifier": "STA",
+                "value": "2023-11-19T21:45:00"
+              }
+            ],
+            "groundTimeDuration": "PT00H00M"
+          }
+        },
+        {
+          "iataCode": "HKG",
+          "departure": {
+            "terminal": {
+              "code": "1"
+            }
+          }
+        }
+      ]
+    },
+    "included": {
+      "legs": [
+        {
+          "boardPointIataCode": "TPE",
+          "offPointIataCode": "HKG",
+          "flyingTimeDuration": "PT02H05M",
+          "aircraftEquipment": {
+            "aircraftType": "333",
+            "aircraftConfiguration": {
+              "code": "33E-A01"
+            }
+          },
+          "legDCSStatuses": {
+            "acceptanceStatus": "OPEN",
+            "generalStatus": "OPEN",
+            "loadControlStatus": "OPEN",
+            "boardingStatus": "NOT_OPEN",
+            "baggageStatus": "IGNORED",
+            "disruptionStatus": "NOT_DISRUPTED"
+          },
+          "legCounters": {
+            "totalCounters": {
+              "capacity": 262,
+              "availability": 248,
+              "infantQuota": 24,
+              "notAccepted": 14,
+              "booked": 14,
+              "accepted": 0
+            },
+            "cabinCounters": [
+              {
+                "cabinName": "J",
+                "counters": {
+                  "capacity": 39,
+                  "availability": 33,
+                  "notAccepted": 6,
+                  "booked": 6,
+                  "accepted": 0,
+                  "standby": 0
+                },
+                "isFreeSeating": false,
+                "configuration": 39,
+                "transit": {
+                  "total": {
+                    "total": {
+                      "booked": 0,
+                      "accepted": 0,
+                      "standby": 0
+                    },
+                    "infants": {
+                      "accepted": 0
+                    }
+                  }
+                },
+                "partnerDcsCounters": [
+                  {
+                    "marketingFlight": {
+                      "carrierCode": "CX",
+                      "flightNumber": 491
+                    },
+                    "dcsCounters": {
+                      "capacity": 39,
+                      "availability": 33,
+                      "expectedAvailability": 39,
+                      "occupiedSeats": 6,
+                      "expectedToBoard": 0,
+                      "partAccepted": 0,
+                      "partStandby": 0,
+                      "booked": 6
+                    },
+                    "joining": {
+                      "total": {
+                        "total": {
+                          "booked": 6,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 6,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "transit": {
+                      "total": {
+                        "total": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "staffCounters": {
+                      "rebate": {
+                        "total": {
+                          "booked": 0,
+                          "waitlisted": 0
+                        }
+                      }
+                    },
+                    "capacity": {
+                      "operationalCapacity": 39,
+                      "seatingCapacity": 39
+                    }
+                  }
+                ],
+                "capacity": {
+                  "operationalCapacity": 39,
+                  "seatingCapacity": 39
+                }
+              },
+              {
+                "cabinName": "Y",
+                "counters": {
+                  "capacity": 223,
+                  "availability": 215,
+                  "notAccepted": 8,
+                  "booked": 8,
+                  "accepted": 0,
+                  "standby": 0
+                },
+                "isFreeSeating": false,
+                "configuration": 223,
+                "transit": {
+                  "total": {
+                    "total": {
+                      "booked": 0,
+                      "accepted": 0,
+                      "standby": 0
+                    },
+                    "infants": {
+                      "accepted": 0
+                    }
+                  }
+                },
+                "partnerDcsCounters": [
+                  {
+                    "marketingFlight": {
+                      "carrierCode": "CX",
+                      "flightNumber": 491
+                    },
+                    "dcsCounters": {
+                      "capacity": 223,
+                      "availability": 215,
+                      "expectedAvailability": 223,
+                      "occupiedSeats": 8,
+                      "expectedToBoard": 0,
+                      "partAccepted": 0,
+                      "partStandby": 0,
+                      "booked": 8
+                    },
+                    "joining": {
+                      "total": {
+                        "total": {
+                          "booked": 8,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 8,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "transit": {
+                      "total": {
+                        "total": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0,
+                          "acceptedOnJumpSeat": 0
+                        },
+                        "cbbg": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "exst": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "infants": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "standardPassengers": {
+                          "booked": 0,
+                          "accepted": 0,
+                          "standby": 0
+                        },
+                        "nonCommercials": 0
+                      },
+                      "staff": {
+                        "rebate": {
+                          "total": {
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0,
+                            "waitlisted": 0,
+                            "waitlistedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "exst": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          },
+                          "infants": {
+                            "accepted": 0,
+                            "waitlisted": 0
+                          }
+                        },
+                        "bookable": {
+                          "total": {
+                            "booked": 0,
+                            "accepted": 0,
+                            "standby": 0,
+                            "acceptedOnJumpSeat": 0
+                          },
+                          "cbbg": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "exst": {
+                            "booked": 0,
+                            "accepted": 0
+                          },
+                          "infants": {
+                            "booked": 0,
+                            "accepted": 0
+                          }
+                        }
+                      }
+                    },
+                    "staffCounters": {
+                      "rebate": {
+                        "total": {
+                          "booked": 0,
+                          "waitlisted": 0
+                        }
+                      }
+                    },
+                    "capacity": {
+                      "operationalCapacity": 223,
+                      "seatingCapacity": 223
+                    }
+                  }
+                ],
+                "capacity": {
+                  "operationalCapacity": 223,
+                  "seatingCapacity": 223
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

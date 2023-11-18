@@ -71,7 +71,7 @@ function HomePage() {
           </a>
           <a
             href="https://www.hkexpress.com/en-hk/"
-            className="flex h-12 w-full flex-row items-center justify-center overflow-hidden border-2 border-[#68338D] border-opacity-30 bg-[#68338D] bg-opacity-10 text-xl font-bold text-[#68338D] shadow-lg">
+            className="flex h-12 w-full flex-row items-center justify-center overflow-hidden border-2 border-[#005D63] border-opacity-30 bg-[#005D63] bg-opacity-10 text-xl font-bold text-[#005D63] shadow-lg">
             <div className="mr-2">Book via HK Express</div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

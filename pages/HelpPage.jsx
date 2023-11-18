@@ -1,5 +1,5 @@
-import Show360Image from '../components/Show360Image'
-import InputId from '../components/InputId'
+import Show360Image from '../src/components/Show360Image'
+import InputId from '../src/components/InputId'
 import { useState, useEffect } from 'react'
 
 function HelpPage() {
