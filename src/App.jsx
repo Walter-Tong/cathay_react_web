@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import HomePage from '../pages/HomePage'
 import BottomNav from './components/BottomNav'
 import BoardingPage from '../pages/BoardingPage'
+import LoginPage from '../pages/LoginPage'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/map" element={<div>Contact</div>}></Route>
           <Route path="/info" element={<div>Contact</div>}></Route>
           <Route path="/help" element={<div>Contact</div>}></Route>
+          <Route path="/login" element={<LoginPage />}></Route>
         </Routes>
       </div>
       <BottomNav />

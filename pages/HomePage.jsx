@@ -1,16 +1,17 @@
 import FlightInfoCard from '../src/components/FlightInfoCard'
+import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (
     <div className="space-y-7">
       <div className="flex items-center">
         <img
-          src="profile-img.jpg"
+          src="no-login.jpg"
           className="mr-2 h-10 w-10 rounded-full border-2 border-[#005D63] border-opacity-25"
         />
-        <div className="text-2xl font-medium text-[#005D63]">
-          Mercurius Wong
-        </div>
+        <Link className="text-2xl font-medium text-[#005D63]" to="/login">
+          Mercurius
+        </Link>
       </div>
       <div className="space-y-2">
         <div className="flex flex-row items-center justify-between">

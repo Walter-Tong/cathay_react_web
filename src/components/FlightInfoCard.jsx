@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom'
+
 function FlightInfoCard(props) {
   const { flightType, flightNum, src, dest, date, time } = props.props
   return (
-    <div
+    <Link
+      to="boarding"
       className={
         'flex h-28 w-full items-center justify-between border-2 border-opacity-30 bg-opacity-10 shadow-lg ' +
         (flightType == 'cathay'
@@ -34,7 +37,7 @@ function FlightInfoCard(props) {
           />
         </svg>
       </div>
-    </div>
+    </Link>
   )
 }
 
