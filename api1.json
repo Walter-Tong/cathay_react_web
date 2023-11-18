@@ -1,0 +1,4089 @@
+{
+    "510812B00000C8DD": {
+        "data": {
+            "id": "510812B00000C8DD",
+            "recordLocator": "68EGEJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B00005E3D2"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "MATTIE",
+                    "lastName": "ASHLEY",
+                    "prefix": "MISS"
+                },
+                "gender": "F",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "purposeOfVisit": "TOURIST"
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B00005E3D2": {
+                    "id": "5009A2B00005E3D2",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE",
+                        "SERVICES"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "Y",
+                        "cabin": "Y",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68EGEJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-ECONLIGHT",
+                    "dcsProductType": "AS",
+                    "bookingClass": "Y",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394941",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394941",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "services": [
+                        {
+                            "subtype": "SPECIAL_KEYWORD",
+                            "id": "1000000021885586",
+                            "code": "BFLT",
+                            "description": "YQ21TWAO",
+                            "NIP": 1
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B000015206": {
+        "data": {
+            "id": "510892B000015206",
+            "recordLocator": "68DEVR",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B00006283E"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "KA WAI",
+                    "lastName": "WONG",
+                    "prefix": "MISS"
+                },
+                "gender": "F",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510892B00001515E",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B000015206"
+                }
+            ],
+            "purposeOfVisit": "TOURIST"
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "500A02B00006283E": {
+                    "id": "500A02B00006283E",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68DEVR",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-BIZFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394937",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394937",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510812B00000CADE": {
+        "data": {
+            "id": "510812B00000CADE",
+            "recordLocator": "68FF2P",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B00005E7EC"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "KWOK FAI",
+                    "lastName": "LAM",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            }
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B00005E7EC": {
+                    "id": "5009A2B00005E7EC",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE",
+                        "SERVICES"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "Y",
+                        "cabin": "Y",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68FF2P",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-ECONLIGHT",
+                    "dcsProductType": "AS",
+                    "bookingClass": "Y",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394950",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394950",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "services": [
+                        {
+                            "subtype": "SPECIAL_KEYWORD",
+                            "id": "1000000021885587",
+                            "code": "BFLT",
+                            "description": "YQ21HKAO",
+                            "NIP": 1
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510812B00000D2DD": {
+        "data": {
+            "id": "510812B00000D2DD",
+            "recordLocator": "68LIEJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B0000643B9"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "ALEXANDRA",
+                    "lastName": "LEVY",
+                    "prefix": "MISS"
+                },
+                "gender": "F",
+                "dateOfBirth": "2016-09-09",
+                "passengerTypeCode": "C"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510812B00000D2AF",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2DD"
+                },
+                {
+                    "id": "510812B00000D2D2",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2DD"
+                },
+                {
+                    "id": "510892B000015CB7",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2DD"
+                }
+            ]
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "500A02B0000643B9": {
+                    "id": "500A02B0000643B9",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "W",
+                        "cabin": "W",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68LIEJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-PEYFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "W",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387395068",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387395068",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B000014EBB": {
+        "data": {
+            "id": "510892B000014EBB",
+            "recordLocator": "68BE5O",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B00005D613"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "LAWRENCE",
+                    "lastName": "SPENCE",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "purposeOfVisit": "TOURIST"
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B00005D613": {
+                    "id": "5009A2B00005D613",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE",
+                        "SERVICES"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "Y",
+                        "cabin": "Y",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68BE5O",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-ECONLIGHT",
+                    "dcsProductType": "AS",
+                    "bookingClass": "Y",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394932",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394932",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "services": [
+                        {
+                            "subtype": "SPECIAL_KEYWORD",
+                            "id": "10000000218854B7",
+                            "code": "BFLT",
+                            "description": "YQ21TWAO",
+                            "NIP": 1
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "5109C2B00001E932": {
+        "data": {
+            "id": "5109C2B00001E932",
+            "recordLocator": "68PJWH",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B0000658AB"
+                    },
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B000060FF5"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "RASHMI",
+                    "lastName": "KARNIK",
+                    "prefix": "MS"
+                },
+                "gender": "F",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "purposeOfVisit": "TOURIST"
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                },
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B000060FF5": {
+                    "id": "5009A2B000060FF5",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "W",
+                        "cabin": "W",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68PJWH",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-PEYFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "W",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387395077",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387395077",
+                            "coupons": [
+                                {
+                                    "number": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                },
+                "500A02B0000658AB": {
+                    "id": "500A02B0000658AB",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68PJWH",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-PEYFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387395077",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387395077",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedPassengerSegments": {
+                        "onwardId": "5009A2B000060FF5"
+                    },
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510812B00000D429": {
+        "data": {
+            "id": "510812B00000D429",
+            "recordLocator": "68LIZG",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B000064AF1"
+                    },
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B00005FDE8"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "YAN CHING",
+                    "lastName": "CHUNG",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "purposeOfVisit": "TOURIST"
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                },
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B00005FDE8": {
+                    "id": "5009A2B00005FDE8",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE",
+                        "SERVICES"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "Y",
+                        "cabin": "Y",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68LIZG",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-ECONLIGHT",
+                    "dcsProductType": "AS",
+                    "bookingClass": "Y",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387395072",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387395072",
+                            "coupons": [
+                                {
+                                    "number": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "services": [
+                        {
+                            "subtype": "SPECIAL_KEYWORD",
+                            "id": "10000000218856F8",
+                            "code": "BFLT",
+                            "description": "YQ21HKAO",
+                            "NIP": 1
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                },
+                "500A02B000064AF1": {
+                    "id": "500A02B000064AF1",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE",
+                        "SERVICES"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "Y",
+                        "cabin": "Y",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68LIZG",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-ECONLIGHT",
+                    "dcsProductType": "AS",
+                    "bookingClass": "Y",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387395072",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387395072",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "services": [
+                        {
+                            "subtype": "SPECIAL_KEYWORD",
+                            "id": "10000000218856F9",
+                            "code": "BFLT",
+                            "description": "YQ21TWAO",
+                            "NIP": 1
+                        }
+                    ],
+                    "associatedPassengerSegments": {
+                        "onwardId": "5009A2B00005FDE8"
+                    },
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B000015B41": {
+        "data": {
+            "id": "510892B000015B41",
+            "recordLocator": "68JO8T",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B00005F738"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "LONG",
+                    "lastName": "WU",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "purposeOfVisit": "TOURIST"
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B00005F738": {
+                    "id": "5009A2B00005F738",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "Y",
+                        "cabin": "Y",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68JO8T",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-ECONLIGHT",
+                    "dcsProductType": "AS",
+                    "bookingClass": "Y",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394962",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394962",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "5109C2B00001E6BE": {
+        "data": {
+            "id": "5109C2B00001E6BE",
+            "recordLocator": "68NDOJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B000064EFC"
+                    },
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B0000604C6"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "JUNJIE",
+                    "lastName": "FANG",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510892B00001634B",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/5109C2B00001E6BE"
+                },
+                {
+                    "id": "510892B00001637F",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/5109C2B00001E6BE"
+                },
+                {
+                    "id": "510892B00001634B",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/5109C2B00001E6BE"
+                },
+                {
+                    "id": "510892B00001637F",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/5109C2B00001E6BE"
+                }
+            ]
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                },
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B0000604C6": {
+                    "id": "5009A2B0000604C6",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68NDOJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                },
+                "500A02B000064EFC": {
+                    "id": "500A02B000064EFC",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68NDOJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedPassengerSegments": {
+                        "onwardId": "5009A2B0000604C6"
+                    },
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B0000153AC": {
+        "data": {
+            "id": "510892B0000153AC",
+            "recordLocator": "68EOJ6",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B00005E3F4"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "TSZ WAH",
+                    "lastName": "CHEUNG",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            }
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B00005E3F4": {
+                    "id": "5009A2B00005E3F4",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE",
+                        "SERVICES"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "Y",
+                        "cabin": "Y",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68EOJ6",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-ECONLIGHT",
+                    "dcsProductType": "AS",
+                    "bookingClass": "Y",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394944",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394944",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "services": [
+                        {
+                            "subtype": "SPECIAL_KEYWORD",
+                            "id": "100000002188550E",
+                            "code": "BFLT",
+                            "description": "YQ21HKAO",
+                            "NIP": 1
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510812B00000D2D2": {
+        "data": {
+            "id": "510812B00000D2D2",
+            "recordLocator": "68LIEJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B0000643B8"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "PATRICK",
+                    "lastName": "LEVY",
+                    "prefix": "MSTR"
+                },
+                "gender": "M",
+                "dateOfBirth": "2013-05-28",
+                "passengerTypeCode": "C"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510812B00000D2AF",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2D2"
+                },
+                {
+                    "id": "510812B00000D2DD",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2D2"
+                },
+                {
+                    "id": "510892B000015CB7",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2D2"
+                }
+            ]
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "500A02B0000643B8": {
+                    "id": "500A02B0000643B8",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "W",
+                        "cabin": "W",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68LIEJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-PEYFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "W",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387395069",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387395069",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B000015CB7": {
+        "data": {
+            "id": "510892B000015CB7",
+            "recordLocator": "68LIEJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B0000643B6"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "MARVIN",
+                    "lastName": "LEVY",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510812B00000D2AF",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B000015CB7"
+                },
+                {
+                    "id": "510812B00000D2D2",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B000015CB7"
+                },
+                {
+                    "id": "510812B00000D2DD",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B000015CB7"
+                }
+            ]
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "500A02B0000643B6": {
+                    "id": "500A02B0000643B6",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "W",
+                        "cabin": "W",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68LIEJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-PEYFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "W",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394967",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394967",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B00001637F": {
+        "data": {
+            "id": "510892B00001637F",
+            "recordLocator": "68NDOJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B000064EFE"
+                    },
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B0000604C8"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "LONGWEI",
+                    "lastName": "FANG",
+                    "prefix": "MSTR"
+                },
+                "gender": "M",
+                "dateOfBirth": "2015-08-28",
+                "passengerTypeCode": "C"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510892B00001634B",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001637F"
+                },
+                {
+                    "id": "5109C2B00001E6BE",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001637F"
+                },
+                {
+                    "id": "510892B00001634B",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001637F"
+                },
+                {
+                    "id": "5109C2B00001E6BE",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001637F"
+                }
+            ]
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                },
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B0000604C8": {
+                    "id": "5009A2B0000604C8",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68NDOJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                },
+                "500A02B000064EFE": {
+                    "id": "500A02B000064EFE",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68NDOJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedPassengerSegments": {
+                        "onwardId": "5009A2B0000604C8"
+                    },
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B00001634B": {
+        "data": {
+            "id": "510892B00001634B",
+            "recordLocator": "68NDOJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B000064EFD"
+                    },
+                    {
+                        "ref": "#/included/segmentDeliveries/5009A2B0000604C7"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "BINGWEN",
+                    "lastName": "XIA",
+                    "prefix": "MS"
+                },
+                "gender": "F",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510892B00001637F",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001634B"
+                },
+                {
+                    "id": "5109C2B00001E6BE",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001634B"
+                },
+                {
+                    "id": "510892B00001637F",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001634B"
+                },
+                {
+                    "id": "5109C2B00001E6BE",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001634B"
+                }
+            ]
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                },
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "5009A2B0000604C7": {
+                    "id": "5009A2B0000604C7",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68NDOJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                },
+                "500A02B000064EFD": {
+                    "id": "500A02B000064EFD",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68NDOJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedPassengerSegments": {
+                        "onwardId": "5009A2B0000604C7"
+                    },
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510892B00001515E": {
+        "data": {
+            "id": "510892B00001515E",
+            "recordLocator": "68DEVR",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B00006283D"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "WAI MAN",
+                    "lastName": "LI",
+                    "prefix": "MR"
+                },
+                "gender": "M",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510892B000015206",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510892B00001515E"
+                }
+            ],
+            "purposeOfVisit": "TOURIST"
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX049120231119TPE": {
+                    "id": "CX049120231119TPE",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "TPE",
+                            "offPointIataCode": "HKG",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "TPE",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T19:40:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T19:10:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T21:45:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "HKG"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "500A02B00006283D": {
+                    "id": "500A02B00006283D",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "TPE",
+                            "terminal": "1",
+                            "at": "2023-11-19T19:40:00"
+                        },
+                        "arrival": {
+                            "iataCode": "HKG"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "491"
+                        }
+                    },
+                    "recordLocator": "68DEVR",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-BIZFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX049120231119TPE",
+                            "departure": {
+                                "iataCode": "TPE",
+                                "terminal": "1",
+                                "at": "2023-11-19T19:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T21:45:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "491"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "1",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394936",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394936",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510812B00000D1DE": {
+        "data": {
+            "id": "510812B00000D1DE",
+            "recordLocator": "68K6BJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B000064390"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "CHLOE",
+                    "lastName": "ALLISON",
+                    "prefix": "MS"
+                },
+                "gender": "F",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            }
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "500A02B000064390": {
+                    "id": "500A02B000064390",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "J",
+                        "cabin": "J",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68K6BJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-BIZFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "J",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394964",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394964",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    },
+    "510812B00000D2AF": {
+        "data": {
+            "id": "510812B00000D2AF",
+            "recordLocator": "68LIEJ",
+            "isExactMatch": true,
+            "isUniqueMatch": true,
+            "segmentDeliveries": {
+                "collection": [
+                    {
+                        "ref": "#/included/segmentDeliveries/500A02B0000643B7"
+                    }
+                ]
+            },
+            "traveler": {
+                "name": {
+                    "firstName": "ELISABETH",
+                    "lastName": "BENNETT",
+                    "prefix": "MS"
+                },
+                "gender": "F",
+                "passengerTypeCode": "A"
+            },
+            "flightManagementWeightRequirement": {
+                "isGenderToBeChecked": false
+            },
+            "passengerLinks": [
+                {
+                    "id": "510812B00000D2D2",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2AF"
+                },
+                {
+                    "id": "510812B00000D2DD",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2AF"
+                },
+                {
+                    "id": "510892B000015CB7",
+                    "methods": [
+                        "GET"
+                    ],
+                    "ref": "/departure-control/dcs-passengers/510812B00000D2AF"
+                }
+            ]
+        },
+        "dictionaries": {
+            "datedFlight": {
+                "CX025920231119HKG": {
+                    "id": "CX025920231119HKG",
+                    "legs": [
+                        {
+                            "boardPointIataCode": "HKG",
+                            "offPointIataCode": "LHR",
+                            "legDCSStatuses": {
+                                "generalStatus": "OPEN",
+                                "acceptanceStatus": "OPEN",
+                                "boardingStatus": "NOT_OPEN",
+                                "baggageStatus": "IGNORED",
+                                "disruptionStatus": "NOT_DISRUPTED"
+                            }
+                        }
+                    ],
+                    "flightPoints": [
+                        {
+                            "iataCode": "HKG",
+                            "departure": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-19T23:55:00",
+                                        "qualifier": "STD"
+                                    },
+                                    {
+                                        "value": "2023-11-19T23:15:00",
+                                        "qualifier": "BOT"
+                                    }
+                                ]
+                            },
+                            "arrival": {
+                                "timings": [
+                                    {
+                                        "value": "2023-11-20T05:00:00",
+                                        "qualifier": "STA"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "iataCode": "LHR"
+                        }
+                    ]
+                }
+            }
+        },
+        "included": {
+            "segmentDeliveries": {
+                "500A02B0000643B7": {
+                    "id": "500A02B0000643B7",
+                    "isPrime": false,
+                    "dcsSegmentFlags": [
+                        "DOCISSUE"
+                    ],
+                    "flightSegment": {
+                        "departure": {
+                            "iataCode": "HKG",
+                            "terminal": "1",
+                            "at": "2023-11-19T23:55:00"
+                        },
+                        "arrival": {
+                            "iataCode": "LHR"
+                        },
+                        "class": "W",
+                        "cabin": "W",
+                        "status": "HK",
+                        "operating": {
+                            "carrierCode": "CX",
+                            "number": "259"
+                        }
+                    },
+                    "recordLocator": "68LIEJ",
+                    "passengerSegmentDisruption": {
+                        "processState": {
+                            "status": "NOT_DISRUPTED"
+                        },
+                        "productState": {
+                            "status": "NOT_DISRUPTED"
+                        }
+                    },
+                    "handlingCarrierCode": "CX",
+                    "handlingSystem": "1A",
+                    "fareFamilyName": "CX-PEYFLEX",
+                    "dcsProductType": "AS",
+                    "bookingClass": "W",
+                    "legDeliveries": [
+                        {
+                            "id": "CX025920231119HKG",
+                            "departure": {
+                                "iataCode": "HKG",
+                                "terminal": "1",
+                                "at": "2023-11-19T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR",
+                                "terminal": "3",
+                                "at": "2023-11-20T05:00:00"
+                            },
+                            "operating": {
+                                "carrierCode": "CX",
+                                "number": "259"
+                            },
+                            "disruption": {
+                                "status": "NOT_DISRUPTED"
+                            },
+                            "departureTerminal": "1",
+                            "arrivalTerminal": "3",
+                            "acceptance": {
+                                "status": "CNA"
+                            },
+                            "boarding": {
+                                "boardingStatus": "NOT_BOARDED",
+                                "boardingPassPrint": {
+                                    "status": "NPT"
+                                }
+                            },
+                            "regulatoryProgramsCheckStatuses": [
+                                {
+                                    "regulatoryProgram": {
+                                        "name": "ADC"
+                                    },
+                                    "isOverallSuccess": false,
+                                    "statuses": [
+                                        {
+                                            "isSuccessful": false,
+                                            "statusCode": "NOT_PERFORMED"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "associatedTickets": [
+                        {
+                            "documentNumber": "1602387394966",
+                            "documentType": "ETICKET",
+                            "associationStatus": "ASSOCIATED"
+                        }
+                    ],
+                    "candidateTickets": [
+                        {
+                            "documentNumber": "1602387394966",
+                            "coupons": [
+                                {
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "volunteerDowngrade": "NOT_ASKED",
+                    "volunteerDeniedBoarding": "NOT_ASKED",
+                    "onwardReturnTicketExists": false,
+                    "isRegulatoryDocumentRevalidationRequired": false
+                }
+            }
+        }
+    }
+}
