@@ -1,10 +1,10 @@
 function ChatMessagegBox({ message }) {
 
     return (
-        <div className="mx-4">
+        <div className="shadow m-1 rounded-2xl p-1">
             <div>
-                <span>
-                    {message.role}
+                <span className="font-bold text-lg">
+                    {message.role.toUpperCase()}
                 </span>
             </div>
             <div>

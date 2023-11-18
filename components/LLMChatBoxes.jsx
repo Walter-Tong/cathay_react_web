@@ -8,21 +8,15 @@ function LLMChatBoxes() {
 
     const [previousMessages, setPreviousMessages] = useState([])
 
-    const handleClick = () => {
-        setChatMode(!chatMode)
-        setPreviousMessages([])
-    }
-
-    const handleAssClick = () => {
-        setChatMode(true)
-    }
-
-    
-
     return (
-        <div>
-            <div onClick={handleClick}>
-                {(!chatMode) ? "Switch to flight assiant" : "Switch to translator"}
+        <div className="w-screen">
+            <div className="flex flex-row p-1 text-lg font-bold shadow m-1 rounded-2xl">
+                <div onClick={() => {setChatMode(true); setPreviousMessages([])}} className={((chatMode) ? "w-1/2 bg-[#005D63] p-2 rounded-2xl" : "w-1/2 p-2 rounded-2xl")}>
+                    Assistant
+                </div>
+                <div onClick={() => {setChatMode(false); setPreviousMessages([])}} className={((!chatMode) ? "w-1/2 bg-[#005D63] p-2 rounded-2xl" : "w-1/2 p-2 rounded-2xl")}>
+                    Translator
+                </div>
             </div>
             <div className="overflow-auto max-h-[65vh]">
                 {previousMessages.map((msg, i) => <ChatMessagegBox message={msg} key={i} />)}
