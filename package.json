@@ -20,7 +20,9 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
     "react-photo-sphere-viewer": "^3.4.0-psv5.4.0",
-    "react-router-dom": "^6.19.0"
+    "react-qr-code": "^2.0.12",
+    "react-router-dom": "^6.19.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",

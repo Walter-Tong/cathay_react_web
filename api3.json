@@ -1,0 +1,1014 @@
+{
+    "510892B00001515E500A02B00006283D": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B00001515E"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B00006283D",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B000015206500A02B00006283E": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B000015206"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B00006283E",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000C8DD5009A2B00005E3D2": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000C8DD"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B00005E3D2",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 1,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 1,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B0000153AC5009A2B00005E3F4": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B0000153AC"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B00005E3F4",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "HKG"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 1,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 1,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B000015B415009A2B00005F738": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B000015B41"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B00005F738",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 1,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 1,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B00001637F5009A2B0000604C8": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B00001637F"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B0000604C8",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "5109C2B00001E6BE500A02B000064EFC": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "5109C2B00001E6BE"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B000064EFC",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "5109C2B00001E6BE5009A2B0000604C6": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "5109C2B00001E6BE"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B0000604C6",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B000015CB7500A02B0000643B6": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B000015CB7"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B0000643B6",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "HKG"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000D2D2500A02B0000643B8": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000D2D2"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B0000643B8",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "HKG"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "5109C2B00001E9325009A2B000060FF5": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "5109C2B00001E932"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B000060FF5",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000D2AF500A02B0000643B7": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000D2AF"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B0000643B7",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "HKG"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000CADE5009A2B00005E7EC": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000CADE"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B00005E7EC",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "HKG"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 1,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 1,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B000014EBB5009A2B00005D613": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B000014EBB"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B00005D613",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "HKG"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 1,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 1,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B00001634B500A02B000064EFD": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B00001634B"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B000064EFD",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000D1DE500A02B000064390": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000D1DE"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B000064390",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "HKG"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "5109C2B00001E932500A02B0000658AB": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "5109C2B00001E932"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B0000658AB",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B00001634B5009A2B0000604C7": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B00001634B"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B0000604C7",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000D429500A02B000064AF1": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000D429"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B000064AF1",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 1,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 1,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000D2DD500A02B0000643B9": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000D2DD"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B0000643B9",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "HKG"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510892B00001637F500A02B000064EFE": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510892B00001637F"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "500A02B000064EFE",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 2,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 2,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "32",
+                                "value": 32,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "510812B00000D4295009A2B00005FDE8": {
+        "data": [
+            {
+                "isPooledAllowance": false,
+                "dcsPassengers": [
+                    {
+                        "id": "510812B00000D429"
+                    }
+                ],
+                "segmentDeliveries": [
+                    {
+                        "id": "5009A2B00005FDE8",
+                        "flightSegment": {
+                            "departure": {
+                                "iataCode": "TPE"
+                            },
+                            "arrival": {
+                                "iataCode": "LHR"
+                            }
+                        }
+                    }
+                ],
+                "baggageGroupAllowances": {
+                    "baggageGroupAllowance": {
+                        "quantity": 1,
+                        "baggageAllowance": "TOTAL_ALLOWANCE"
+                    },
+                    "baggageAllowanceBreakdowns": [
+                        {
+                            "quantity": 1,
+                            "baggageAllowance": "ADULT_ALLOWANCE"
+                        },
+                        {
+                            "weight": {
+                                "amount": "24",
+                                "value": 24,
+                                "decimalPlaces": 0,
+                                "unit": "KILOGRAMS"
+                            },
+                            "baggageAllowance": "WEIGHT_PER_PIECE"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,134 @@
+[
+    {
+        "BookingID": "68BE5O",
+        "Flight": "CX491",
+        "SegmentID": "5009A2B00005D613",
+        "PassengerID": "510892B000014EBB"
+    },
+    {
+        "BookingID": "68EGEJ",
+        "Flight": "CX491",
+        "SegmentID": "5009A2B00005E3D2",
+        "PassengerID": "510812B00000C8DD"
+    },
+    {
+        "BookingID": "68JO8T",
+        "Flight": "CX491",
+        "SegmentID": "5009A2B00005F738",
+        "PassengerID": "510892B000015B41"
+    },
+    {
+        "BookingID": "68DEVR",
+        "Flight": "CX491",
+        "SegmentID": "500A02B00006283D",
+        "PassengerID": "510892B00001515E"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX491",
+        "SegmentID": "500A02B00006283E",
+        "PassengerID": "510892B000015206"
+    },
+    {
+        "BookingID": "68EOJ6",
+        "Flight": "CX259",
+        "SegmentID": "5009A2B00005E3F4",
+        "PassengerID": "510892B0000153AC"
+    },
+    {
+        "BookingID": "68FF2P",
+        "Flight": "CX259",
+        "SegmentID": "5009A2B00005E7EC",
+        "PassengerID": "510812B00000CADE"
+    },
+    {
+        "BookingID": "68K6BJ",
+        "Flight": "CX259",
+        "SegmentID": "500A02B000064390",
+        "PassengerID": "510812B00000D1DE"
+    },
+    {
+        "BookingID": "68LIEJ",
+        "Flight": "CX259",
+        "SegmentID": "500A02B0000643B6",
+        "PassengerID": "510892B000015CB7"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "500A02B0000643B7",
+        "PassengerID": "510812B00000D2AF"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "500A02B0000643B8",
+        "PassengerID": "510812B00000D2D2"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "500A02B0000643B9",
+        "PassengerID": "510812B00000D2DD"
+    },
+    {
+        "BookingID": "68LIZG",
+        "Flight": "CX491",
+        "SegmentID": "500A02B000064AF1",
+        "PassengerID": "510812B00000D429"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "5009A2B00005FDE8",
+        "PassengerID": "510812B00000D429"
+    },
+    {
+        "BookingID": "68PJWH",
+        "Flight": "CX491",
+        "SegmentID": "500A02B0000658AB",
+        "PassengerID": "5109C2B00001E932"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "5009A2B000060FF5",
+        "PassengerID": "5109C2B00001E932"
+    },
+    {
+        "BookingID": "68NDOJ",
+        "Flight": "CX491",
+        "SegmentID": "500A02B000064EFC",
+        "PassengerID": "5109C2B00001E6BE"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX491",
+        "SegmentID": "500A02B000064EFD",
+        "PassengerID": "510892B00001634B"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX491",
+        "SegmentID": "500A02B000064EFE",
+        "PassengerID": "510892B00001637F"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "5009A2B0000604C6",
+        "PassengerID": "5109C2B00001E6BE"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "5009A2B0000604C7",
+        "PassengerID": "510892B00001634B"
+    },
+    {
+        "BookingID": null,
+        "Flight": "CX259",
+        "SegmentID": "5009A2B0000604C8",
+        "PassengerID": "510892B00001637F"
+    }
+]

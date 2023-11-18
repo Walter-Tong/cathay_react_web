@@ -9,6 +9,7 @@ import LLMChatBoxes from '../components/LLMChatBoxes'
 import Show360Image from '../components/Show360Image'
 import Image360List from '../components/Image360List'
 import ChatMessagegBox from '../components/ChatMessageBox'
+import InputId from '../components/InputId'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,34 +27,11 @@ function App() {
       setImgToShow(<Show360Image path={toGo.slice(1)} />)
     }
 
-    const xhr = new XMLHttpRequest();
-    const url = 'https://developers.cathaypacific.com/hackathon-apigw/airport/customers/510892B000014EBB/details';
-
-    xhr.open('GET', url);
-    xhr.setRequestHeader('Accept', 'application/json');
-    xhr.setRequestHeader('apiKey', 'FMw5lJSZPyXwiEYAboABtCXoJqn7GHzn');
-
-    xhr.onload = function () {
-      if (xhr.status === 200) {
-        const response = JSON.parse(xhr.responseText);
-        // Process the response data here
-        console.log(response);
-      } else {
-        console.error('Request failed with status:', xhr.status);
-      }
-    };
-
-    xhr.onerror = function () {
-      console.error('Request failed.');
-    };
-
-    xhr.send();
-
   }, [])
 
   return (
     <div className='flex'>
-      <LLMChatBoxes />
+      <InputId />
       {imgToShow}
     </div>
   )
