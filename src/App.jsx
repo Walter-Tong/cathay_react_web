@@ -1,24 +1,21 @@
-import { useState } from 'react'
-import { Routes, Route, NavLink } from 'react-router-dom'
-import './App.css'
-import TopBar from '../components/topBar'
+import { Routes, Route } from 'react-router-dom'
 import HomePage from '../pages/HomePage'
+import BottomNav from './components/BottomNav'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='flex justify-center items-center'>
-      <TopBar />
-      <Routes>
-        <Route path="/about" element={<div>About</div>}>
-        </Route>
-        <Route path="/contact" element={<div>Contact</div>}>
-        </Route>
-        <Route path="/" element={<HomePage />}>
-        </Route>
-      </Routes>
-    </div>
+    <>
+      <div className="h-screen w-screen pt-20 px-5">
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/shop" element={<div>Contact</div>}></Route>
+          <Route path="/map" element={<div>Contact</div>}></Route>
+          <Route path="/info" element={<div>Contact</div>}></Route>
+          <Route path="/help" element={<div>Contact</div>}></Route>
+        </Routes>
+      </div>
+      <BottomNav />
+    </>
   )
 }
 
