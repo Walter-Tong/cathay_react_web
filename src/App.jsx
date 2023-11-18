@@ -6,7 +6,7 @@ import BoardingPage from '../pages/BoardingPage'
 function App() {
   return (
     <>
-      <div className="h-screen w-screen pt-20 px-5 font-montserrat">
+      <div className="h-screen w-screen px-5 pt-20 font-montserrat">
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/boarding" element={<BoardingPage />}></Route>
