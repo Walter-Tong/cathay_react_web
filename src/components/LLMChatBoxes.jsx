@@ -9,8 +9,8 @@ function LLMChatBoxes() {
   const [previousMessages, setPreviousMessages] = useState([])
 
   return (
-    <div className="w-screen">
-      <div className="m-1 flex flex-row rounded-2xl p-1 text-lg font-bold shadow">
+    <div className='min-w-full'>
+      <div className="m-1 flex flex-row rounded-2xl text-lg font-bold shadow">
         <div
           onClick={() => {
             setChatMode(true)
@@ -36,7 +36,7 @@ function LLMChatBoxes() {
           Translator
         </div>
       </div>
-      <div className="max-h-[65vh] overflow-auto">
+      <div className="max-h-[55vh] overflow-auto">
         {previousMessages.map((msg, i) => (
           <ChatMessagegBox message={msg} key={i} />
         ))}

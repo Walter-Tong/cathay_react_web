@@ -10,7 +10,7 @@ function AspectSelection({ aspect, setAspect }) {
   ]
 
   return (
-    <div className="m-1 flex flex-row rounded-2xl p-1 text-sm shadow">
+    <div className="m-1 flex flex-row rounded-2xl p-1 text-xs shadow">
       {aspects.map((val, ind) => (
         <AspectSelectionAspectBox
           val={val}

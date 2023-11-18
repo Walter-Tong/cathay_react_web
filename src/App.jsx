@@ -5,6 +5,7 @@ import BoardingPage from '../pages/BoardingPage'
 import LoginPage from '../pages/LoginPage'
 import HelpPage from '../pages/HelpPage'
 import ShareFlightPage from '../pages/ShareFlightPage'
+import AIPage from '../pages/AIPage'
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/boarding" element={<BoardingPage />}></Route>
           <Route path="/map" element={<div>map</div>}></Route>
-          <Route path="/info" element={<div>info</div>}></Route>
-          <Route path="/help" element={<HelpPage />}></Route>
+          <Route path="/info" element={<HelpPage />}></Route>
+          <Route path="/help" element={<AIPage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
           <Route path="/share-flight" element={<ShareFlightPage />}></Route>
         </Routes>

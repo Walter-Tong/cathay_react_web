@@ -364,7 +364,7 @@ function LLMChatBoxChat({ previousMessages, setPreviousMessages }) {
   console.log(FAQ[aspect])
 
   return (
-    <div className="w-screen">
+    <div className="w-full">
       <AspectSelection aspect={aspect} setAspect={setAspect} />
       <form onSubmit={handleSubmit} className="flex justify-center">
         <input
