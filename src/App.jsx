@@ -4,6 +4,7 @@ import BottomNav from './components/BottomNav'
 import BoardingPage from '../pages/BoardingPage'
 import LoginPage from '../pages/LoginPage'
 import HelpPage from '../pages/HelpPage'
+import ShareFlightPage from '../pages/ShareFlightPage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/info" element={<div>info</div>}></Route>
           <Route path="/help" element={<HelpPage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
+          <Route path="/share-flight" element={<ShareFlightPage />}></Route>
         </Routes>
       </div>
       <BottomNav />
