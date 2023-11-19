@@ -364,7 +364,7 @@ function LLMChatBoxChat({ previousMessages, setPreviousMessages }) {
   console.log(FAQ[aspect])
 
   return (
-    <div className="w-full">
+    <div className="fixed bottom-14 left-0 w-full">
       <AspectSelection aspect={aspect} setAspect={setAspect} />
       <form onSubmit={handleSubmit} className="flex justify-center">
         <input
@@ -372,9 +372,11 @@ function LLMChatBoxChat({ previousMessages, setPreviousMessages }) {
           value={inputText}
           placeholder="Type your message here"
           onChange={() => setInputText(event.target.value)}
-          className="border-2 border-[#005D63] border-opacity-30 bg-[#005D63] bg-opacity-10"
+          className="h-13 mr-2 w-full rounded-none border-2 bg-[#005D63] bg-opacity-10 p-2"
         />
-        <button type="submit">Send</button>
+        <button type="submit" className="mr-2">
+          Send
+        </button>
       </form>
     </div>
   )

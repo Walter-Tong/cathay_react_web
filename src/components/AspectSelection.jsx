@@ -10,7 +10,7 @@ function AspectSelection({ aspect, setAspect }) {
   ]
 
   return (
-    <div className="mt-2 flex flex-col items-center border-2 border-[#005D63] border-opacity-30 text-xs font-semibold">
+    <div className="mt-2 flex flex-col items-center border-y-2 border-[#005D63] border-opacity-30 text-xs font-semibold">
       {aspects.map((val, ind) => (
         <AspectSelectionAspectBox
           val={val}

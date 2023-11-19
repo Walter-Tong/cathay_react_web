@@ -20,7 +20,7 @@ function LLMChatBoxes() {
             'flex w-1/2 justify-center p-2 text-[#005D63] ' +
             (chatMode ? 'bg-[#005D63] bg-opacity-10' : '')
           }>
-          Assistant
+          Ask Questions
         </div>
         <div
           onClick={() => {
@@ -31,7 +31,7 @@ function LLMChatBoxes() {
             'flex w-1/2 justify-center p-2 text-[#005D63] ' +
             (!chatMode ? 'bg-[#005D63] bg-opacity-10' : '')
           }>
-          Translator
+          Request Services
         </div>
       </div>
       <div className="overflow-scroll">

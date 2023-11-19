@@ -1,6 +1,6 @@
 function ChatMessagegBox({ message }) {
   return (
-    <div className="m-1 rounded-2xl p-1 shadow">
+    <div className="m-2 border-b-2 pb-2">
       <div>
         <span className="text-lg font-bold">{message.role.toUpperCase()}</span>
       </div>

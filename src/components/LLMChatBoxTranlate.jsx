@@ -51,15 +51,20 @@ function LLMChatBoxTranlate() {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="fixed bottom-14 left-0 w-full">
+      <form
+        onSubmit={handleSubmit}
+        className="flex justify-center border-t-2 border-[#005D63] border-opacity-30">
         <input
           type="text"
           value={inputText}
           placeholder={msgToShow}
           onChange={() => setInputText(event.target.value)}
+          className="mr-2 h-11 w-full rounded-none bg-[#005D63] bg-opacity-10 p-2 pl-[0.625rem]"
         />
-        <button type="submit">Send</button>
+        <button type="submit" className="mr-2">
+          Send
+        </button>
       </form>
     </div>
   )
