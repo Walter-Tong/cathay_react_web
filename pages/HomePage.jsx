@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (
-    <div className="space-y-7">
+    <div className="space-y-3">
       <div className="flex items-center">
         <img
           src="no-login.jpg"

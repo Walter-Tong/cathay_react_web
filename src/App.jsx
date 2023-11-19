@@ -10,7 +10,7 @@ import AIPage from '../pages/AIPage'
 function App() {
   return (
     <>
-      <div className="h-screen w-screen px-5 pt-20 font-montserrat">
+      <div className="h-screen w-screen px-5 pt-3 font-montserrat">
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/boarding" element={<BoardingPage />}></Route>

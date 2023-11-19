@@ -23,7 +23,9 @@ function BoardingPage() {
         <div className="mt-2 flex w-full items-center border-b-2 border-[#005D63] border-opacity-30 pb-2">
           <img src={flightType + '.jpg'} className="ml-2 h-24 shadow" />
           <div className="-space-y-1 pl-3">
-            <div className="text-xl font-bold">{flightNum}</div>
+            <div className="text-xl font-bold">
+              {(flightType == 'cathay' ? 'CX' : 'UO') + flightNum}
+            </div>
             <div>
               {src} -{'>'} {dest}
             </div>

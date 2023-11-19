@@ -372,6 +372,7 @@ function LLMChatBoxChat({ previousMessages, setPreviousMessages }) {
           value={inputText}
           placeholder="Type your message here"
           onChange={() => setInputText(event.target.value)}
+          className="border-2 border-[#005D63] border-opacity-30 bg-[#005D63] bg-opacity-10"
         />
         <button type="submit">Send</button>
       </form>

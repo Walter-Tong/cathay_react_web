@@ -5,7 +5,7 @@ const svgClassName = 'w-8 h-8 text-[#005D63]'
 function BottomNav() {
   return (
     <div className="fixed bottom-0 w-screen bg-white">
-      <div className="flex justify-center space-x-10 border-t-2 border-[#005D63] border-opacity-25 pb-8 pt-3">
+      <div className="flex justify-center space-x-10 border-t-2 border-[#005D63] border-opacity-25 py-3">
         <NavLink to="/" className={isActive => (isActive ? 'active' : '')}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

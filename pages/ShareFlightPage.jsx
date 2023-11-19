@@ -38,10 +38,7 @@ function ShareFlightPage() {
       <div className="mt-3 px-2">
         You may ask whoever you wish to share your flight details with to scan
         this code, such as your friends and family.
-        <p className="mt-2">
-          They will get access to a flight overview. The boarding pass is not
-          shared.
-        </p>
+        <p className="mt-2">They will get access to a flight overview. The boarding pass is not shared.</p>
       </div>
     </>
   )

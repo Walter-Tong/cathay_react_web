@@ -9,17 +9,16 @@ function LLMChatBoxes() {
   const [previousMessages, setPreviousMessages] = useState([])
 
   return (
-    <div className='min-w-full'>
-      <div className="m-1 flex flex-row rounded-2xl text-lg font-bold shadow">
+    <div className="w-full">
+      <div className="flex items-center border-2 border-[#005D63] border-opacity-30 font-semibold">
         <div
           onClick={() => {
             setChatMode(true)
             setPreviousMessages([])
           }}
           className={
-            chatMode
-              ? 'w-1/2 rounded-2xl bg-[#005D63] p-2'
-              : 'w-1/2 rounded-2xl p-2'
+            'flex w-1/2 justify-center p-2 text-[#005D63] ' +
+            (chatMode ? 'bg-[#005D63] bg-opacity-10' : '')
           }>
           Assistant
         </div>
@@ -29,14 +28,13 @@ function LLMChatBoxes() {
             setPreviousMessages([])
           }}
           className={
-            !chatMode
-              ? 'w-1/2 rounded-2xl bg-[#005D63] p-2'
-              : 'w-1/2 rounded-2xl p-2'
+            'flex w-1/2 justify-center p-2 text-[#005D63] ' +
+            (!chatMode ? 'bg-[#005D63] bg-opacity-10' : '')
           }>
           Translator
         </div>
       </div>
-      <div className="max-h-[55vh] overflow-auto">
+      <div className="overflow-scroll">
         {previousMessages.map((msg, i) => (
           <ChatMessagegBox message={msg} key={i} />
         ))}
