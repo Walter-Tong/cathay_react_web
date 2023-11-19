@@ -1,5 +1,7 @@
+import Show360Image from '../src/components/Show360Image'
+
 function MapPage() {
-  return <div>Todo</div>
+  return <Show360Image props="../public/images/IMG_2556.jpeg" />
 }
 
 export default MapPage
